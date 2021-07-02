@@ -42,8 +42,8 @@
         "blockCommentEndPattern": "",
         "lineCommentStartPattern": "^\\s*#",
         "lineCommentEndPattern": "",
-        "headerStartLine": "#\n",
-        "headerEndLine": "#\n",
+        "headerStartLine": "##############################################################\n",
+        "headerEndLine": "##############################################################\n",
         "headerLinePrefix": "# ",
         "headerLineSuffix": ""
     },
@@ -90,8 +90,8 @@
         "blockCommentEndPattern": "\\*/\\s*$",
         "lineCommentStartPattern": "^\\s*//",
         "lineCommentEndPattern": "",
-        "headerStartLine": "/*\n",
-        "headerEndLine": " */\n",
+        "headerStartLine": "/*****************************************************************************\\\n",
+        "headerEndLine": "\\*****************************************************************************/\n",
         "headerLinePrefix": " * ",
         "headerLineSuffix": ""
     },

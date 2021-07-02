@@ -53,8 +53,8 @@ def update_c_style_comments(extensions):
         "blockCommentEndPattern": re.compile(r'\*/\s*$'),
         "lineCommentStartPattern": re.compile(r'^\s*//'),
         "lineCommentEndPattern": None,
-        "headerStartLine": "/*\n",
-        "headerEndLine": " */\n",
+        "headerStartLine": "/*****************************************************************************\\\n",
+        "headerEndLine": "\*****************************************************************************/\n",
         "headerLinePrefix": " * ",
         "headerLineSuffix": None,
     }
@@ -108,8 +108,8 @@ TYPE_SETTINGS = {
         "blockCommentEndPattern": None,
         "lineCommentStartPattern": re.compile(r'^\s*#'),
         "lineCommentEndPattern": None,
-        "headerStartLine": "#\n",
-        "headerEndLine": "#\n",
+        "headerStartLine": "##############################################################\n",
+        "headerEndLine": "##############################################################\n",
         "headerLinePrefix": "# ",
         "headerLineSuffix": None
     },
